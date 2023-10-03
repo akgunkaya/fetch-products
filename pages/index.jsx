@@ -2,6 +2,7 @@ import Head from 'next/head';
 import ProductList from '../components/ProductList'
 import { useEffect, useState } from 'react';
 
+
 export default function Home() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
